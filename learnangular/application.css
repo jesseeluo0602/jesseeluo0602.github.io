@@ -24,9 +24,9 @@
 
 
 #background {
-	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #C4EBF2 0%, #3F525E 100%);
+  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #C4EBF2 0%, #3F525E 100%);
 }
 
 #background2{
-	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #D9FBFF 0%, #A2D2F2 100%);
+  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #D9FBFF 0%, #A2D2F2 100%);
 }
