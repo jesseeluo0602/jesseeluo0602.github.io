@@ -4,6 +4,7 @@
     this.phones = phoneList;
   });
 
+
   var phoneList = [
     { name: 'Holy Dragon', rank: "A",  type:"Fire", imageUrl:"http://img2.wikia.nocookie.net/__cb20131222134656/quiz-rpg-the-world-of-mystic-wiz/images/6/61/Holy_Dragon_Icon.png", wiki:"http://quiz-rpg-the-world-of-mystic-wiz.wikia.com/wiki/Holy_Dragon" },
     { name: 'White Flame Holy Dragon', rank: "A-",  type:"Fire", imageUrl:"http://img1.wikia.nocookie.net/__cb20131222134724/quiz-rpg-the-world-of-mystic-wiz/images/thumb/3/33/White_Flame_Holy_Dragon_Icon.png/100px-White_Flame_Holy_Dragon_Icon.webp", wiki:"http://quiz-rpg-the-world-of-mystic-wiz.wikia.com/wiki/White_Flame_Holy_Dragon"},

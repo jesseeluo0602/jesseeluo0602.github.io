@@ -6,8 +6,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+    <script src="http://code.angularjs.org/1.1.5/angular.js"></script>
     <script type="text/javascript" src="controllers.js"></script>
+    <script type="text/javascript" src="htpps://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.18/angular-animate.min.js"></script>
     <script src="js/animations.js"></script>
   </head>
     <nav class="navbar navbar-inverse navbar-top" role="navigation">
@@ -51,7 +52,7 @@
           <!--Body content-->
 
           <ul class="phones">
-            <li ng-repeat="product in phone.phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing" >
+            <li ng-repeat="product in phone.phones | filter:query | orderBy:orderProp" class="thumbnail" ng-animate="{enter: 'phone-enter', leave: 'phone-leave', move:'phone-move'}" >
             <a href="{{product.wiki}}" class="thumb"><img ng-src="{{product.imageUrl}}"></a>
              <a href="{{product.wiki}}">{{product.name}}</a>
               <p>Rank {{product.rank}}</p>
